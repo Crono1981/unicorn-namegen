@@ -12,7 +12,14 @@
 div {
     display: flex;
     flex-direction: column;
-    
+    color: white;
+
+
+    border: 4px solid purple;
+    border-radius: 5vw;
+    color: white;
+    padding: 32px;
+    background: #9e76e8;
 }
 
 p {

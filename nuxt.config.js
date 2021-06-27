@@ -1,4 +1,7 @@
 export default {
+  server: {
+    port: 5000
+  },
   serverMiddleware: [
     '~/server-middleware/gen.ts'
   ],
@@ -17,9 +20,6 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Générateur de noms de licornes conçu pour une personne très intrigante 😍.' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 

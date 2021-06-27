@@ -56,9 +56,18 @@ const names = [
     'Canelle',
     'Praline',
     'Luna',
-    'Rogacien',
+    'Rogacienne',
     'Clochette',
-    'Galipette'
+    'Galipette',
+    'Éléanor',
+    'Héra',
+    'Ouragan',
+    'Tornade',
+    'Perséphone',
+    'Diamant',
+    'Rubis Écarlate',
+    'Tonnerre',
+    'Constantine'
 ]
 const aliases = [
     'la pouliche',
@@ -76,7 +85,14 @@ const aliases = [
     'la défenseuse',
     'la déesse',
     'la souveraine',
-    'la protectrice'
+    'la protectrice',
+    'la rebelle',
+    'la grande bringue chevaline',
+    'la légende',
+    'la sorcière',
+    'la guérisseuse',
+    'la devineresse',
+    'l\'élue'
 ]
 
 const qualificatives = [
@@ -94,12 +110,25 @@ const qualificatives = [
     'adorable',
     'full cute',
     'ratoureuse',
-    'qui combat le crime',
+    'qui combat les esprits malins',
     'à la défense de l\'univers',
     'des éléments',
     'en charge de garder la paix',
     'ambassadrice des câlins',
-    'à la peau douce'
+    'à la peau douce',
+    'multicolore',
+    'magique',
+    'mystérieuse',
+    'aux ailes de feu',
+    'des milles enchantements',
+    'en provenance du ciel',
+    'de la lumière',
+    'aux yeux brillants',
+    'ricaneuse',
+    'divine',
+    'éclatante',
+    'effervescente',
+    'à la crinière dorée'
 ]
 
 app.use(bodyParser.json())

@@ -27,7 +27,7 @@ export default Vue.extend({
     async fetch() {
         const genData = await this.$http.$get('/pour-vero/new-unicorn') as {name: string, imageUrl: string}
         this.name = genData.name
-        this.imageUrl = 'images/unicorns/' + genData.imageUrl
+        this.imageUrl = '/pour-vero/images/unicorns/' + genData.imageUrl
     }
 })
 </script>
@@ -75,15 +75,28 @@ button {
 img {
     border: 4px solid purple;
     border-radius: 5vw;
+    border-top-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     display: block;
     height: auto;
     margin: 0px;
-    max-width: 90vw;
+    max-width: min(480px, 90vw);
+    min-width: 480px;
 }
 span {
-    max-width: 90vw;
-    color: blueviolet;
-    font-size: 8vw;
+    margin-top: 16px;
+    border: 4px solid purple;
+    border-radius: 5vw;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-width: 0px;
+    min-width: 480px;
+    max-width: min(480px, 90vw);
+    color: white;
+    font-size: 2em;
+    padding: 32px;
+    background: #9e76e8;
 
 }
 

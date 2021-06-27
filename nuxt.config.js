@@ -3,6 +3,10 @@ export default {
     '~/server-middleware/gen.ts'
   ],
 
+  router: {
+    base: '/pour-vero/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'unicorn-namegen',

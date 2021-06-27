@@ -1,6 +1,6 @@
 export default {
   serverMiddleware: [
-    { path: "/server-middleware", handler: "~/server-middleware/gen.ts" }
+    '~/server-middleware/gen.ts'
   ],
 
   // Global page headers: https://go.nuxtjs.dev/config-head

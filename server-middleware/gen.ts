@@ -1,7 +1,7 @@
 import { readdir } from 'fs/promises'
+import path from 'path'
 import bodyParser from 'body-parser'
 import express, { Request, Response } from 'express'
-import path from "path"
 
 function getRandomSegment(array: string[], isNoneAllowed: boolean) {
     let max: number = array.length
@@ -11,10 +11,10 @@ function getRandomSegment(array: string[], isNoneAllowed: boolean) {
     const index = Math.floor(Math.random() * max)
 
     if (index < array.length) {
-        return array[index];
+        return array[index]
     }
 
-    return "";
+    return ''
 }
 
 async function getRandomImageUrl() {

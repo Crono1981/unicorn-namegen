@@ -81,8 +81,8 @@ img {
     display: block;
     height: auto;
     margin: 0px;
-    max-width: min(480px, 90vw);
-    min-width: 480px;
+    max-width: min(360px, 90vw);
+    min-width: 360px;
 }
 span {
     margin-top: 16px;
@@ -91,8 +91,8 @@ span {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-bottom-width: 0px;
-    min-width: 480px;
-    max-width: min(480px, 90vw);
+    min-width: 360px;
+    max-width: min(360px, 90vw);
     color: white;
     font-size: 2em;
     padding: 32px;

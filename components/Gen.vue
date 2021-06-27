@@ -25,7 +25,7 @@ export default Vue.extend({
         }
     },
     async fetch() {
-        const genData = await this.$http.$get('/new-unicorn') as {name: string, imageUrl: string}
+        const genData = await this.$http.$get('new-unicorn') as {name: string, imageUrl: string}
         this.name = genData.name
         this.imageUrl = 'images/unicorns/' + genData.imageUrl
     }

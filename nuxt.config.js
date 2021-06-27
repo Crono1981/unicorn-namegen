@@ -1,7 +1,4 @@
 export default {
-  server: {
-    port: 5000
-  },
   serverMiddleware: [
     '~/server-middleware/gen.ts'
   ],

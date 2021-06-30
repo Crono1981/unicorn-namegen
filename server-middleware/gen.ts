@@ -42,6 +42,8 @@ const names = [
     'Véronique',
     'Véronique',
     'Véronique',
+    'Véronique',
+    'Véronique',
     'Stardust',
     'Fleur',
     'Perle',
@@ -92,7 +94,8 @@ const aliases = [
     'la sorcière',
     'la guérisseuse',
     'la devineresse',
-    'l\'élue'
+    'l\'élue',
+    'la poète contemporaine'
 ]
 
 const qualificatives = [
@@ -128,7 +131,13 @@ const qualificatives = [
     'divine',
     'éclatante',
     'effervescente',
-    'à la crinière dorée'
+    'à la crinière dorée',
+    'jeteuse du mauvais oeil',
+    'très féroce',
+    'qui ferait sans doute un bon jambon',
+    'pleine de bonnes idées',
+    'avec des côtés pratiques',
+    'cheesy'
 ]
 
 app.use(bodyParser.json())

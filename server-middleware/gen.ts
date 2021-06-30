@@ -137,7 +137,8 @@ const qualificatives = [
     'qui ferait sans doute un bon jambon',
     'pleine de bonnes idées',
     'avec des côtés pratiques',
-    'cheesy'
+    'cheesy',
+    'fluente en code morse par ses cavités nasales'
 ]
 
 app.use(bodyParser.json())
